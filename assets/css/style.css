@@ -5,6 +5,9 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -394,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 78vh;
+  height: 70vh;
  
   /*background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
     background-image: linear-gradient(-225deg, #7D1B0F 0%, #7D1B0F 29%, #FF1361 67%, #fcfcfc 100%);
@@ -408,7 +411,7 @@ background-image: linear-gradient(to right,#6A1B0F 0%, #6A1B0F 10%, #6A1B0F 40%,
 }
 
 #hero .container {
-  padding-top: 72px;
+  padding-top: 10px;
 }
 
 #hero h1 {
@@ -485,8 +488,10 @@ background-image: linear-gradient(to right,#6A1B0F 0%, #6A1B0F 10%, #6A1B0F 40%,
     text-align: center;
   }
   #hero .hero-img img {
-    width: 50%;
+    width: 40%;
+    
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -500,17 +505,41 @@ background-image: linear-gradient(to right,#6A1B0F 0%, #6A1B0F 10%, #6A1B0F 40%,
     margin-bottom: 30px;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 50%;
   }
+  
 }
 
 @media (max-width: 575px) {
+
+/* Get Startet Button */
+.get-started-btn {
+  margin-left: 25px;
+  color: #6A1B0F;
+  border-radius: 50px;
+  padding: 6px 25px 7px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 18px;
+  display: inline-block;
+  border: 2px solid #fafafa;
+  font-weight: 600;
+  background: #ffffff;
+}
+
+.get-started-btn:hover {
+  background: #fff;
+  color: #6A1B0F;
+}
+
   #hero .hero-img img {
-    width: 80%;
+    width: 100%;
+    padding-top: 10;
   }
   #hero .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
+    background: #F03D22;
   }
   #hero .btn-watch-video {
     font-size: 16px;
@@ -520,6 +549,9 @@ background-image: linear-gradient(to right,#6A1B0F 0%, #6A1B0F 10%, #6A1B0F 40%,
   #hero .btn-watch-video i {
     font-size: 32px;
     top: 7px;
+  }
+  #hero  {
+    background: #7D2010;
   }
 }
 
@@ -1604,7 +1636,7 @@ section {
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
-  text-align: left;
+  text-align: center;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot {

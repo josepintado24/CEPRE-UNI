@@ -5,6 +5,55 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+@media (min-width: 576px) {
+  .rounded-nav {
+    border-radius: 50rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .rounded-nav .nav-link {
+    border-radius: 50rem !important;
+  }
+}
+
+/* With arrow tabs */
+
+.with-arrow .nav-link.active {
+  position: relative;
+}
+
+.with-arrow .nav-link.active::after {
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #1FA461;
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+}
+
+/* lined tabs */
+
+.lined .nav-link {
+  border: none;
+  border-bottom: 3px solid transparent;
+}
+
+.lined .nav-link:hover {
+  border: none;
+  border-bottom: 3px solid transparent;
+}
+
+.lined .nav-link.active {
+  background: none;
+  color: rgb(255, 255, 255);
+  border-color: #1FA461;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -24,6 +73,9 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Jost", sans-serif;
+}
+#home1-tab{
+  background: #1FA461;
 }
 .intensivo1{
   background: #1FA461;
@@ -174,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: #fff;
   transition: 0.3s;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 0.5px;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
@@ -187,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 6px 25px 7px 25px;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 16px;
+  font-size:14px;
 }
 
 .nav-menu .drop-down ul {
