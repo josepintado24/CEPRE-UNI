@@ -1,5 +1,60 @@
 
 
+/*Botones de descargas*/
+.ciclofecha-tituI {
+  color: #1FA461;
+  position: relative;
+  line-height: 18px;
+  padding-bottom:5px;
+  
+}
+.colorE {
+  color: #fff;
+  background: #3B56F8; 
+}
+.ciclofecha-tituE {
+  color: #3B56F8;
+  position: relative;
+  line-height: 18px;
+  padding-bottom:5px;
+  
+}
+.ciclofecha-text {
+  padding-bottom: 5px;
+}
+.btn-descargasE:hover{
+  background: #fff;
+  color: #3B56F8;
+  font-size: 15px;
+}
+.btn-descargasE {
+  background: #3B56F8;
+  color: #fff;
+  line-height: 18px;
+}
+
+.btn-descargas:hover{
+  background: #fff;
+  color: #37517e;
+  font-size: 15px;
+}
+.btn-descargas {
+  background: #37517e;
+  color: #fff;
+  line-height: 18px;
+}
+.boton-descargas {
+  color: #1FA461;
+}
+.caja-btn {
+  color: #1FA461;
+  position: relative;
+  line-height: 18px;
+  padding:5px;
+  
+}
+
+/*Fin de botones de descargas*/
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
@@ -1832,12 +1887,13 @@ section {
   padding: 15px 0;
   background: #f3f5fa;
   min-height: 40px;
-  margin-top: 72px;
+  margin-top: 95px;
 }
 
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 68px;
+    margin-top: 61px;
+    padding: 5px 0;
   }
 }
 
@@ -1871,7 +1927,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .portfolio-details .portfolio-details-container {
