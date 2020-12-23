@@ -8,7 +8,6 @@
   <title>CEPRE-UNI</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
   <!-- Favicons -->
   <link href="content/assets/img/logoT.png" rel="icon">
   <link href="content/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -25,9 +24,11 @@
   <link href="content/assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="content/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="content/assets/vendor/aos/aos.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
 
   <!-- Template Main CSS File -->
   <link href="content/assets/css/style.css" rel="stylesheet">
+  
 
 </head>
 
@@ -890,8 +891,41 @@
 
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
   <div id="preloader"></div>
+  
+<!-- Button trigger modal -->
 
+<!-- <div id="myModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-header">
+      <h4 class="modal-title">Felices fiestas</h4>
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    </div>
+    <div class="modal-content">
+      <img src="content/assets/img/mensajeNavidad.jpg" class="box-img-center img-fluid" alt="">
+    </div>
+  </div>
+</div> -->
+<div id="myModal" class="modal fade">
+  <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h4 class="modal-title">Mensaje Navideño</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          </div>
+          <div class="modal-body">
+            <img src="content/assets/img/mensajeNavidad.jpg" class="box-img-center img-fluid" alt="">
+          </div>
+          
+      </div>
+  </div>
+</div>
+  <script type="text/javascript">
+  $(function(){
+  $("#myModal").modal();
+  });
+  </script>
   <!-- Vendor JS Files -->
+ 
   <script src="content/assets/vendor/jquery/jquery.min.js"></script>
   <script src="content/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="content/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -901,6 +935,7 @@
   <script src="content/assets/vendor/venobox/venobox.min.js"></script>
   <script src="content/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="content/assets/vendor/aos/aos.js"></script>
+  
 
   <!-- Template Main JS File -->
   <script src="content/assets/js/main.js"></script>
