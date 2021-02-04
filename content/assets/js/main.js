@@ -181,7 +181,8 @@
     autoplay: true,
     dots: true,
     loop: true,
-    items: 1
+    items: 1,
+    autoplayTimeout:10000
   });
 
   // Init AOS
