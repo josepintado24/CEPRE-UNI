@@ -5,9 +5,59 @@ Last change:
 Assigned to:  Bach Le
 Primary use:  
 -------------------------------------------------------------------*/
+.casa a{
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 60px 11px 60px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+}
+.box-img-center {
+  margin-right: auto;
+  margin-left: auto;
+}
 
+.btn-pre {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 60px 11px 60px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #9535B2;
+}
 
+.btn-pre:hover {
+  background: #4e0166;
+  color: #fff;
+}
+.btn-bas {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size:18px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 100px 11px 100px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #F2C74D;
+}
 
+.btn-bas:hover {
+  background: #bd8a00;
+  color: #fff;
+}
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
@@ -243,12 +293,12 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
 .l1-txt1 {
-  font-family: Montserrat-Thin;
-  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
   color: #fff;
-  line-height: 1.1;
+  line-height: 1;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing: 3px;
 }
 .l1-txt2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -256,7 +306,10 @@ Primary use:
   color: #fff;
   line-height: 1;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing:3px;
+}
+.p1-text {
+  color: #fff;
 }
 
 
@@ -347,12 +400,7 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
-  /* background: #7579ff;
-  background: -webkit-linear-gradient(top, #b224ef, #7579ff);
-  background: -o-linear-gradient(top, #b224ef, #7579ff);
-  background: -moz-linear-gradient(top, #b224ef, #7579ff);
-  background: linear-gradient(top, #b224ef, #7579ff); */
-  background: linear-gradient(to right, rgba(106 , 27, 15, 0.9) 0%, rgba(106, 27, 15, 0.9) 45%,rgba(238, 169, 169, 0.7) 100%), url("../../assets/img/cta-bg-sectorT.jpg") fixed center center;
+  background: linear-gradient(to right, rgba(106 , 27, 15, 0.9) 0%, rgba(106, 27, 15, 0.9) 45%,rgba(106, 27, 15, 0.9) 100%), url("../../assets/img/cta-bg-sectorT.jpg") fixed center center;
   
 }
 
