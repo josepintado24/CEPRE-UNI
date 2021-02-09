@@ -724,10 +724,23 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: #FFD2A6;
 }
-
+#hero .avisoh1 {
+  margin: 0 0 10px 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #FFD2A6;
+}
+#hero .avisoh2 {
+  color: rgba(232, 204, 163, 0.6);
+  margin-bottom: 10px;
+  margin-top: 25px;
+  font-size: 24px;
+}
 #hero h2 {
   color: rgba(232, 204, 163, 0.6);
-  margin-bottom: 50px;
+  margin-bottom: 15px;
+  margin-top: 25px;
   font-size: 24px;
 }
 
@@ -2233,8 +2246,7 @@ section {
 }
 
 .carousel-indicators{
-  border-radius: 0.1%;
-  bottom: calc(10% - 25%);
+  bottom: calc(15% - 25%);
 }
 .admis_link{
   color: #fff;
@@ -2245,4 +2257,10 @@ section {
   color: #F2B705;
   font-size: 18px;
   margin-bottom: 2px;
+}
+.carousel-control-prev{
+  left: -10px;
+}
+.carousel-control-next{
+  right: -10px;
 }
