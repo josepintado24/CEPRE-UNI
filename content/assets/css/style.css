@@ -706,7 +706,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
+  height: 85vh;
   /*background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);*/
   background: linear-gradient(to right, rgba(106 , 27, 15, 0.9) 0%, rgba(106, 27, 15, 0.9) 45%,rgba(238, 169, 169, 0.7) 100%), url("../img/cta-bg-sectorT.jpg") fixed center center;
   /*background-image: linear-gradient(to right,#6A1B0F 0%, #6A1B0F 20%, #6A1B0F 35%, #eb9c9d 100%);*/
@@ -714,7 +714,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 #hero h1 {
@@ -858,7 +858,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1px;
   }
   #hero {
-    height: 110vh;
+    height: 130vh;
     text-align: center;
   }
   
@@ -2230,4 +2230,19 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+.carousel-indicators{
+  border-radius: 0.1%;
+  bottom: calc(10% - 25%);
+}
+.admis_link{
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+.admis_link:hover {
+  color: #F2B705;
+  font-size: 18px;
+  margin-bottom: 2px;
 }
