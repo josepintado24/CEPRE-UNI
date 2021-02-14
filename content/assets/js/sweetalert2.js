@@ -33,3 +33,11 @@ $("#Bas_insc_01").click(function () {
         timerProgressBar: true
     });
 });
+$("#avisoModIng2020-2").click(function () {
+    Swal.fire({
+        html:'<p>Para rendir los exámenes parciales y final  los estudiantes del Ciclo Pre 2020-2 deben realizar su preinscripción como postulantes en la modalidad Ingreso Directo y obligatoriamente participar en el examen prueba piloto de lo contrario no tendrán los accesos necesarios.</p><a target="_blank" href="http://www.admision.uni.edu.pe/">Ir a admisión</a>',
+        icon: "info",
+        timer: 15000,
+        timerProgressBar: true
+    });
+});

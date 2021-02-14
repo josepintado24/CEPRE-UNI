@@ -706,7 +706,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
+  height: 70vh;
   /*background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);*/
   background: linear-gradient(to right, rgba(106 , 27, 15, 0.9) 0%, rgba(106, 27, 15, 0.9) 45%,rgba(238, 169, 169, 0.7) 100%), url("../img/cta-bg-sectorT.jpg") fixed center center;
   /*background-image: linear-gradient(to right,#6A1B0F 0%, #6A1B0F 20%, #6A1B0F 35%, #eb9c9d 100%);*/
@@ -714,7 +714,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
 #hero h1 {
@@ -725,7 +725,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFD2A6;
 }
 #hero .avisoh1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
   font-size: 30px;
   font-weight: 700;
   line-height: 45px;
@@ -733,8 +733,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .avisoh2 {
   color: rgba(232, 204, 163, 0.6);
-  margin-bottom: 10px;
-  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-top: 15px;
   font-size: 24px;
 }
 #hero h2 {
@@ -871,7 +871,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1px;
   }
   #hero {
-    height: 130vh;
+    height: 110vh;
     text-align: center;
   }
   
