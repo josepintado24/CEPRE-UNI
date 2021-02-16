@@ -189,7 +189,7 @@
   
   function aos_init() {
     AOS.init({
-      duration: 1000,
+      duration: 300,
       once: true
     });
   }
